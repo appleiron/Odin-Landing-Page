@@ -26,6 +26,10 @@ header, footer {
     padding: 30px;
 }
 
+.info-text {
+    max-width: 600px;
+}
+
 .logo {
     font: 24px;
 }
@@ -39,7 +43,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 20px;
 }
 
 h1 {
@@ -66,8 +70,8 @@ button, .signup {
 }
 
 .button1, .button2 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
     color: #F9FAF8;
     text-align: center;
     text-decoration: none;
