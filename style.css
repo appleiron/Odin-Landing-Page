@@ -17,16 +17,20 @@ header, footer {
     padding: 30px;
 }
 
-.info {
+.hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 1;
     padding: 30px;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.info-text {
+.hero-text {
     max-width: 600px;
 }
 
@@ -60,13 +64,13 @@ p {
     margin-top: 0;
 }
 
-h1, .logo, .signup {
+h1, .logo, .cta {
     color: #F9FAF8;
 }
 
 img {
     max-width: 700px;
-    max-height: 400px;
+    max-height: 350px;
 }
 
 a, p, footer {
@@ -74,7 +78,7 @@ a, p, footer {
     color: #E5E7EB;
 }
 
-button, .signup {
+button, .cta {
     background-color: #3882F6;
 }
 
@@ -108,6 +112,7 @@ button, .signup {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    margin-top: 3rem;
     margin-bottom: 32px;
 }
 
@@ -116,6 +121,8 @@ button, .signup {
   align-items: center;
   justify-content: center;
   gap: 52px;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .info2 {
@@ -139,7 +146,7 @@ button, .signup {
     font-style: italic;
 }
 
-.signup {
+.cta {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -149,6 +156,13 @@ button, .signup {
     margin-bottom: 3rem;
     max-width: 1280px;
     border-radius: 6px;
+    flex: 1;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer {
